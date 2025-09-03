@@ -19,7 +19,9 @@ make -j
 
 ### Usage
 
-Each dataset is available in two raw data formats: `dataset_name.fvecs` and `dataset_name.bin. We offer these options to ensure compatibility with a variety of tools and workflows. If you need to convert the data, please consult the detailed instructions in `UNG-dev/README.md`. Also, refer to https://github.com/YZ-Cai/Unified-Navigating-Graph for detailed environment setup.
+Each dataset is available in two raw data formats: `dataset_name.fvecs` and `dataset_name.bin`. We offer these options to ensure compatibility with a variety of tools and workflows. If you need to convert the data, please consult the detailed instructions in `UNG-dev/README.md`. Also, refer to https://github.com/YZ-Cai/Unified-Navigating-Graph for detailed environment setup.
+
+We provide a small dataset on github to facilitate testing and experimentation.
 
 ***Brute Force***
 
