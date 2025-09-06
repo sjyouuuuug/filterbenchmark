@@ -105,3 +105,9 @@ python search_NHQ_exp.py
 python search_selectivity_exp.py
 # ... and other evaluation scripts
 ```
+
+## Post-filter HNSW/IVFPQ
+
+The post-filter HNSW and post-filter IVFPQ
+
+### build
