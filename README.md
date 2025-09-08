@@ -111,3 +111,23 @@ python search_selectivity_exp.py
 The post-filter HNSW and post-filter IVFPQ
 
 ### build
+
+## CAPS
+
+### build
+
+Please refer to `CAPS/README.md` to generate `libfaiss.a` and `OpenBLAS/libopenblas.a`
+
+```bash
+make index
+make query
+```
+
+We only modified the query part to support multi-thread querying, make sure to use our modified version and install openmp.
+
+### Usage
+
+```bash
+python3 ./bash/build_index.py
+python3 ./bash/search_index.py
+```
