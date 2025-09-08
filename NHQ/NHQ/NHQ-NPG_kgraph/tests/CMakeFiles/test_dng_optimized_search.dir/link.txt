@@ -1,0 +1,1 @@
+/usr/bin/c++  -fopenmp CMakeFiles/test_dng_optimized_search.dir/test_dng_optimized_search.cpp.o -o test_dng_optimized_search  ../src/libefanna2e.a

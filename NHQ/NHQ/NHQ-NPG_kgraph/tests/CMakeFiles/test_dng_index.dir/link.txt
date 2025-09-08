@@ -1,0 +1,1 @@
+/usr/bin/c++  -fopenmp CMakeFiles/test_dng_index.dir/test_dng_index.cpp.o -o test_dng_index  ../src/libefanna2e.a

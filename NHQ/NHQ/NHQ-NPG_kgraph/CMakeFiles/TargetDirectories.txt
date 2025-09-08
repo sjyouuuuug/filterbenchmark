@@ -1,0 +1,10 @@
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/CMakeFiles/edit_cache.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/CMakeFiles/rebuild_cache.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/efanna2e.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/efanna2e_s.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/edit_cache.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/src/CMakeFiles/rebuild_cache.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/test_dng_index.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/test_dng_optimized_search.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/edit_cache.dir
+/root/ChenYizhuo/NHQ/NHQ-NPG_kgraph/tests/CMakeFiles/rebuild_cache.dir
