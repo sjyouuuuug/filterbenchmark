@@ -134,3 +134,31 @@ We only modified the query part to support multi-thread querying, make sure to u
 python3 ./bash/build_index.py
 python3 ./bash/search_index.py
 ```
+
+## ACORN-1 and ACORN-gamma
+
+### build
+
+Our code is primarily concentrated in three files: `build_gamma_index`, `search_acorn_index`, and `search_acorn_index_parse`.
+
+```bash
+cd ACORN/
+
+cmake -DFAISS_ENABLE_GPU=OFF -DFAISS_ENABLE_PYTHON=OFF -DBUILD_TESTING=ON -DBUILD_SHARED_LIBS=ON -DCMAKE_BUILD_TYPE=Release -B build
+
+make -C build -j faiss
+make -C build utils # ignoring error of undifined reference to main
+make -C build build_gamma_index # build ACORN-gamma and ACORN-1 index
+make -C build search_acorn_index # for ACORN-1
+make -C build search_acorn_index_parse # for ACORN-gamma
+```
+
+### Usage
+
+All scripts are located in the `bash\` folder. The functionality and name of the scripts is almost the same as described in the UNG part. The only difference is the suffixes `"_1"` and `"_gamma"` which indicate whether it's ACORN-1 or ACORN-gamma.
+
+If you want to run on your own datasets, convert the ground-truth files from `.bin` to `.txt` before running the scripts. Use the following command and update the paths in the script accordingly:
+
+```bash
+python3 ./bash/convert_gt.py
+```
